@@ -1,0 +1,49 @@
+.featureContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+    background-color: #fff0f6;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    max-width: 1000px;
+  }
+  
+  .imageWrapper {
+    flex-shrink: 0;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .textContent {
+    max-width: 500px;
+  }
+  
+  .textContent h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #d63384;
+  }
+  
+  .textContent p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .shopBtn {
+    margin-top: 1rem;
+    padding: 0.6rem 1.5rem;
+    background-color: #d63384;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shopBtn:hover {
+    background-color: #a61e5c;
+  }
+  
